@@ -11,9 +11,9 @@ const DEFAULT_CONFIG = {
     // =========================================================================
     // 1. 模型与文件路径设置
     // =========================================================================
-    detModel: "./det.mobile.onnx",
-    recModel: "./rec.mobile.nhwc_uint8.onnx",
-    dictPath: "./dict.txt",
+    detModel: "./model/det.mobile.onnx",
+    recModel: "./model/rec.mobile.nhwc_uint8.onnx",
+    dictPath: "./model/dict.txt",
     debugDir: "./debug",
 
     // =========================================================================
